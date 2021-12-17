@@ -1,58 +1,27 @@
 h1 {
-  color: #99a900;
+  color: #99A900 !important;
   font-size: 36px;
-  font-weight: 500;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
-}
-.grid .card {
-  box-shadow: 2px 4px 4px 0px #00000020;
-}
-.grid .card .card-body .info {
-  font-size: 12px;
-  color: gray;
-  font-weight: 600;
-}
-.grid .card .card-body .info .date {
-  font-weight: 500;
-}
-.grid .card .card-body .title {
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.grid .card .card-body .btn-link {
-  color: #99a900;
-  font-size: 12px;
-  margin-right: 1rem;
-}
-.grid .card .card-footer {
-  background-color: white;
-}
-.grid .card .card-footer .btn-icon:not(.btn-danger) {
-  background-color: white;
-  border: solid 1px #eee;
-  color: #565656;
+small {
+  color: #707070;
 }
 
-@media (min-width: 568px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+p {
+  font-size: 1.3rem;
 }
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
+.card-footer {
+  background-color: white;
 }
-@media (min-width: 1440px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+
+.btn-primary {
+  background-color: #99A900 !important;
+  border: none;
+}
+
+.text-primary {
+  color: #99A900 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

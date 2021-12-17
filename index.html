@@ -9,85 +9,294 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
+
     <title>Prueba de código</title>
 </head>
 
-<body>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-12">
-
-                <h1>Noticias</h1>
-                <div class="row mt-3">
-                    <div class="col-12">
-                        <div class="grid">
-
-                            <div class="card card-default">
-                                <div class="card-body">
-
-                                    <span class="info">Lucía Suárez - <span class="date">17/12/2021 14:53</span></span>
-                                    <p class="title">Hoy egreso a las 13:10</p>
-                                    <span class="info">Difusión: 17/12/2021 (Lecturas: 10)</span>
-                                    <span class="btn-link">Ver leídos</span>
-                                </div>
-
-                                <div class="card-footer">
-                                    <button class="btn btn-icon btn-default">1</button>
-                                    <button class="btn btn-icon btn-default">2</button>
-                                    <button class="btn btn-icon btn-danger">3</button>
-                                </div>
-                            </div>
-                            <div class="card card-default">
-                                <div class="card-body">
-
-                                    <span class="info">Lucía Suárez - <span class="date">17/12/2021 14:53</span></span>
-                                    <p class="title">Hoy egreso a las 13:10</p>
-                                    <span class="info">Difusión: 17/12/2021 (Lecturas: 10)</span>
-                                    <span class="btn-link">Ver leídos</span>
-                                </div>
-
-                                <div class="card-footer">
-                                    <button class="btn btn-icon btn-default">1</button>
-                                    <button class="btn btn-icon btn-default">2</button>
-                                    <button class="btn btn-icon btn-danger">3</button>
-                                </div>
-                            </div>
-                            <div class="card card-default">
-                                <div class="card-body">
-
-                                    <span class="info">Lucía Suárez - <span class="date">17/12/2021 14:53</span></span>
-                                    <p class="title">Hoy egreso a las 13:10Hoy egreso a las 13:10</p>
-                                    <span class="info">Difusión: 17/12/2021 (Lecturas: 10)</span>
-                                    <span class="btn-link">Ver leídos</span>
-                                </div>
-
-                                <div class="card-footer">
-                                    <button class="btn btn-icon btn-default">1</button>
-                                    <button class="btn btn-icon btn-default">2</button>
-                                    <button class="btn btn-icon btn-danger">3</button>
-                                </div>
-                            </div>
-                            <div class="card card-default">
-                                <div class="card-body">
-
-                                    <span class="info">Lucía Suárez - <span class="date">17/12/2021 14:53</span></span>
-                                    <p class="title">Hoy egreso a las 13:10</p>
-                                    <span class="info">Difusión: 17/12/2021 (Lecturas: 10)</span>
-                                    <span class="btn-link">Ver leídos</span>
-                                </div>
-
-                                <div class="card-footer">
-                                    <button class="btn btn-icon btn-default">1</button>
-                                    <button class="btn btn-icon btn-default">2</button>
-                                    <button class="btn btn-icon btn-danger">3</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<body class="container-fluid pt-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1>Noticias</h1>
+        <button class="btn btn-primary"> Nueva noticia</button>
+    </div>  
+    <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
                 </div>
             </div>
         </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <small><span class="text-secondary font-weight-bold">Lucía Suárez -</span><span> 17/12/2021 14:53</span></small>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <p class="text-uppercase font-weight-bold m-0 ">Hoy egreso a las 13:10</p>
+                    <small>Difusión: 17/12/2021 (Lecturas: 10)</small>
+                    <a href="#"><small class="text-primary">Ver leídos</small></a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn border bg-white">1</button>
+                    <button class="btn border bg-white">2</button>
+                    <button class="btn border bg-danger text-white">3</button>
+                </div>
+            </div>
+        </div>
+
+  
+
     </div>
 
 
